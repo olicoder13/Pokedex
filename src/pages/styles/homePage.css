@@ -1,0 +1,40 @@
+.contenedor__home{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 243, 245);
+    padding: 25px;
+}
+
+.titulo__principal{
+    font-weight: 700;
+    font-size: 5rem;
+    margin-bottom: 20px;
+    text-decoration: dotted;
+    text-decoration-color: rgb(6, 6, 203);
+    text-shadow: 2px 2px 10px green;
+}
+
+.saludo{
+    color: red;
+    font-size: 2rem;
+}
+
+.peticion__nombre{
+    font-size: 1.2rem;
+}
+.formulario{
+    display: flex;
+    gap: 2px;
+}
+
+.input, .btn{
+    margin-top: 20px;
+    padding: 15px 25px;
+}
+.btn{
+    background-color: red;
+    color: white;
+}

@@ -1,0 +1,19 @@
+.pagination{
+    padding: 20px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    background-color: hsl(39, 89%, 65%);
+    margin-bottom: 20px;
+}
+
+.pagination button {
+    padding: 15px 25px;
+    border-radius: 5px;
+    
+}
+
+.pagination span{
+    align-self: center;
+    font-weight: bold;
+}
